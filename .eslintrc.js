@@ -27,7 +27,7 @@ module.exports = {
             }
         ],
         "comma-style": 2,
-        "complexity": 2,
+        "complexity": 1,
         "computed-property-spacing": [
             2,
             "never"
@@ -50,6 +50,7 @@ module.exports = {
         "indent": 2,
         "jsx-quotes": 2,
         "key-spacing": 2,
+        "keyword-spacing": 2,
         "linebreak-style": [
             2,
             "unix"
@@ -59,15 +60,16 @@ module.exports = {
         "new-parens": 2,
         "no-alert": 2,
         "no-array-constructor": 2,
-        "no-arrow-condition": 2,
         "no-bitwise": 2,
         "no-caller": 2,
         "no-case-declarations": 2,
         "no-catch-shadow": 2,
         "no-class-assign": 2,
         "no-cond-assign": 2,
+        "no-confusing-arrow": 2,
         "no-console": 2,
         "no-const-assign": 2,
+        "no-constant-condition": 2,
         "no-continue": 2,
         "no-control-regex": 2,
         "no-debugger": 2,
@@ -79,7 +81,6 @@ module.exports = {
         "no-duplicate-case": 2,
         "no-empty": 2,
         "no-empty-character-class": 2,
-        "no-empty-label": 2,
         "no-empty-pattern": 2,
         "no-eval": 2,
         "no-ex-assign": 2,
@@ -182,13 +183,8 @@ module.exports = {
                 "before": false
             }
         ],
-        "space-before-keywords": [
-            2,
-            "always"
-        ],
         "space-in-parens": 2,
         "space-infix-ops": 2,
-        "space-return-throw-case": 2,
         "space-unary-ops": 2,
         "strict": [
             2,
