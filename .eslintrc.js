@@ -155,16 +155,20 @@ module.exports = {
         ],
         "no-useless-call": 2,
         "no-useless-concat": 2,
+        "no-var": 2,
         "no-void": 2,
         "no-with": 2,
         "object-curly-spacing": 2,
+        "object-shorthand": 2,
         "operator-assignment": [
             2,
             "always"
         ],
         "operator-linebreak": 2,
+        "prefer-arrow-callback": 2,
         "prefer-const": 2,
         "prefer-spread": 2,
+        "prefer-template": 2,
         "quotes": [
             2,
             "single"
